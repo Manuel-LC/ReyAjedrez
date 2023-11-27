@@ -5,6 +5,7 @@ public enum Color {
     NEGRO("Negro");
 
     private final String colorFicha;
+    private String cadenaAMostrar;
 
     Color(String colorFicha) {
         this.colorFicha = colorFicha;
